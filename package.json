@@ -1,0 +1,30 @@
+{
+  "name": "social-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@hookform/resolvers": "^3.0.0",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.13",
+    "@reduxjs/toolkit": "^1.9.3",
+    "bcryptjs": "^2.4.3",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "mongodb": "^5.1.0",
+    "next": "13.2.4",
+    "next-auth": "^4.21.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.8",
+    "react-redux": "^8.0.5",
+    "yup": "^1.0.2"
+  }
+}
