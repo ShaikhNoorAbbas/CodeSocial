@@ -17,11 +17,7 @@ const Rightbar = () => {
   return (
     <Box>
       <Box position="fixed" width={300}>
-        <Typography
-          variant="h5"
-          fontFamily="poppins"
-          fontWeight={200}
-        >
+        <Typography variant="h5" fontFamily="poppins" fontWeight={200}>
           Online Friends
         </Typography>
         <AvatarGroup max={7}>
@@ -70,7 +66,7 @@ const Rightbar = () => {
         <ImageList>
           {LastestPost.map((id) => {
             return (
-              <ImageListItem>
+              <ImageListItem key={Math.random.toString()}>
                 {" "}
                 <img src={id.src} alt="image" />
               </ImageListItem>
