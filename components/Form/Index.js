@@ -43,11 +43,11 @@ const Form = () => {
       redirect: false,
       email: data.email,
       password: data.password,
-      callbackUrl: "/",
+      callbackUrl: "/home",
     });
     console.log(status);
     if (status.ok) {
-      router.push("/");
+      router.push(status.url);
     }
     reset();
   };

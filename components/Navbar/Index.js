@@ -98,7 +98,7 @@ const Navbar = (props) => {
                 aria-haspopup="true"
                 aria-expanded={open ? "true" : undefined}
               >
-                {SessionName.user.name}
+                {SessionName ? SessionName.user.name : null}
               </Typography>
             </Box>
             <Box>

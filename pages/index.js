@@ -1,17 +1,15 @@
 import Head from "next/head";
-import Home from "@components/Home/Index";
-import Plus from "@components/Add/Index";
+import Form from "@components/Form/Index";
 import { Box } from "@mui/material";
-const HomePage = () => {
+const IndexPage = () => {
   return (
     <Box>
       <Head>
-        <title>CodeSocial - Home</title>
+        <title>CodeSocial - Login or Signup</title>
       </Head>
-      <Home />
-      <Plus />
+      <Form />
     </Box>
   );
 };
 
-export default HomePage;
+export default IndexPage;
